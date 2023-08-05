@@ -43,7 +43,7 @@ def main():
     st.write('Visit the link to know more about me >>  https://imshashankashyap.github.io')
     
     # Get user input
-    st.subheader("Enter any name to check its Gender")
+    st.subheader("Enter any Name to check its Gender")
     user_input = st.text_input('')
     
     if user_input:  # Check if user_input is not empty
