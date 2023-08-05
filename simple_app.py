@@ -17,12 +17,12 @@ def fetch_data_from_api(input_value):
         return None
 
 def main():
-    st.title("A simple Web Application with FREE API Integration using Streamlit created by Shashank Kashyap")
+    st.title("A simple Python based Web Application built using Streamlit created by Shashank Kashyap")
     # st.write("Welcome to this FREE API-powered web application created by Shashank Kashyap")
     st.write('Visit the link to know more about me: https://imshashankashyap.github.io')
     
     # Get user input
-    user_input = st.text_input("Enter any name to check its Gender")
+    user_input = st.title("Enter any name to check its Gender")
     
     if user_input:  # Check if user_input is not empty
         # Fetch data from the API based on user input
