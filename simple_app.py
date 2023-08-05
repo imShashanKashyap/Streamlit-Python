@@ -22,7 +22,7 @@ def main():
     st.write('Visit the link to know more about me: https://imshashankashyap.github.io')
     
     # Get user input
-    user_input = st.title("Enter any name to check its Gender")
+    user_input = st.text_input("Enter any name to check its Gender")
     
     if user_input:  # Check if user_input is not empty
         # Fetch data from the API based on user input
