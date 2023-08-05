@@ -1,1 +1,1 @@
-SELECT * from user_inputs
+SELECT * from user_inputs;

@@ -17,7 +17,7 @@ def fetch_data_from_api(input_value):
         return None
 
 def main():
-    st.title("A simple Python based WebApplication built using Streamlit created by Shashank Kashyap")
+    st.title("A simple Python based Web-Application built using Streamlit created by Shashank Kashyap")
     # st.write("Welcome to this FREE API-powered web application created by Shashank Kashyap")
     st.write('Visit the link to know more about me: https://imshashankashyap.github.io')
     
