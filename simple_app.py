@@ -19,7 +19,7 @@ def fetch_data_from_api(input_value):
 def main():
     st.title("A simple Web Application with API Integration using Streamlit")
     st.write("Welcome to this FREE API-powered web application created by Shashank Kashyap!")
-    
+    st.write('Visit to know more about me: https://imshashankashyap.github.io')
     
     # Get user input
     user_input = st.text_input("Enter any name to check its Gender")
