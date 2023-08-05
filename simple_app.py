@@ -39,11 +39,12 @@ def main():
     # Initialize the database and table
     init_db()
     st.title('"Predict Gender by Name"\n')
-    st.title("A Simple Python based Web Application built using Streamlit created by Shashank Kashyap")
-    st.write('Visit the link to know more about me -> https://imshashankashyap.github.io')
+    st.header("A Simple Python based Web Application built using Streamlit created by Shashank Kashyap")
+    st.subheader('Visit the link to know more about me -> https://imshashankashyap.github.io')
     
     # Get user input
-    user_input = st.text_input("Enter any name to check its Gender")
+    st.subheader("Enter any name to check its Gender")
+    user_input = st.text_input()
     
     if user_input:  # Check if user_input is not empty
         # Store the user input in the database
