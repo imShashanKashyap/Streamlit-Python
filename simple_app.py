@@ -38,8 +38,9 @@ def fetch_data_from_api(input_value):
 def main():
     # Initialize the database and table
     init_db()
-    st.title("A simple Python based Web Application built using Streamlit created by Shashank Kashyap")
-    st.write('Visit the link to know more about me: https://imshashankashyap.github.io')
+    st.title('Predict Gender by Name\n')
+    st.title("A Simple Python based Web Application built using Streamlit created by Shashank Kashyap")
+    st.write('Visit the link to know more about me -> https://imshashankashyap.github.io')
     
     # Get user input
     user_input = st.text_input("Enter any name to check its Gender")
