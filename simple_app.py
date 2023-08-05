@@ -40,7 +40,7 @@ def main():
     init_db()
     st.title('"Predict Gender by Name"\n')
     st.header("A Simple Python based Web Application built using Streamlit created by Shashank Kashyap")
-    st.text('Visit the link to know more about me -> https://imshashankashyap.github.io')
+    st.write('Visit the link to know more about me -> https://imshashankashyap.github.io')
     
     # Get user input
     st.subheader("Enter any name to check its Gender")
